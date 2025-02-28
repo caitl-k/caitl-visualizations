@@ -1,0 +1,168 @@
+---
+title: "Data Visualization Portfolio"
+author: "Caitlin Kirkpatrick"
+output:
+  html_document:
+    theme: cosmo
+    highlight: tango
+    css: styles.css
+    toc: true
+    toc_float: true
+    number_sections: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+```
+
+```{css, echo = FALSE}
+/* Custom CSS for the Table of Contents */
+.tocify {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+
+.tocify-header {
+  font-size: 18px;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.tocify-subheader {
+  padding-left: 15px;
+}
+
+.tocify-subheader li {
+  list-style-type: none;
+}
+
+.tocify-subheader li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.tocify-subheader li a:hover {
+  color: #3498db;
+  text-decoration: underline;
+}
+```
+
+# About
+
+The following are a collage of visualizations from different projects. I've compiled them here to demonstrate how I approach stylizing different types of visualizations. 
+
+# Bar Graphs
+
+## Bed Supply Analysis
+
+![](visualizations/icu_sicu_bar.png)
+
+## Admissions Analysis
+
+![](visualizations/sub_use_age.png)
+
+![](visualizations/age_bar.png)
+
+# Dot Plots
+
+## Bed Supply Analysis
+
+![](visualizations/icu_sicu_dot.png)
+
+# Line Graphs
+
+## Decision Tree Model Evaluation
+
+![](visualizations/roc_cp.png)
+
+# Box Plots
+
+## Biomarker Concentrations
+
+![](visualizations/groupbox.png)
+
+# Histograms
+
+## Biomarker Concentration
+
+![](visualizations/hist.png)
+
+# Q-Q Plots
+
+## Biomarker Concentration
+
+![](visualizations/q-qplot.png)
+
+```{css, echo = FALSE}
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+h1, h2, h3 {
+  color: #2c3e50;
+}
+
+h1 {
+  border-bottom: 2px solid #2c3e50;
+  padding-bottom: 10px;
+}
+
+h2 {
+  border-bottom: 1px solid #2c3e50;
+  padding-bottom: 5px;
+}
+
+a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.navbar-default {
+  background-color: #2c3e50;
+  border-color: #2c3e50;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #ecf0f1;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: #bdc3c7;
+}
+
+.tocify {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tocify-header {
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  padding: 10px;
+  border-radius: 4px 4px 0 0;
+}
+
+.tocify-subheader {
+  padding-left: 20px;
+}
+
+.tocify-subheader li {
+  list-style-type: none;
+}
+
+.tocify-subheader li a {
+  color: #333;
+}
+
+.tocify-subheader li a:hover {
+  color: #3498db;
+}
+```
