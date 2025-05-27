@@ -2,6 +2,8 @@
 title: "Data Visualization Portfolio"
 author: "Caitlin Kirkpatrick"
 output:
+  pdf_document:
+    toc: true
   html_document:
     theme: cosmo
     highlight: tango
@@ -48,10 +50,20 @@ knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
   text-decoration: underline;
 }
 ```
-
+\pagebreak
 # About
 
-The following are a collage of visualizations from different projects. I've compiled them here to demonstrate how I approach stylizing different types of visualizations. 
+The following are a collage of visualizations from different projects. I've compiled them here to demonstrate how I approach stylizing different types of visualizations. To view the analytics projects and code, [please click here to visit my GitHub profile](https://github.com/caitl-k).
+
+# Line Graphs
+
+## Global Lab Supply Item Demand
+
+![](visualizations/highdemandcountry_qty.png)
+
+## Decision Tree Model Evaluation
+
+![](visualizations/roc_cp.png)
 
 # Bar Graphs
 
@@ -71,11 +83,6 @@ The following are a collage of visualizations from different projects. I've comp
 
 ![](visualizations/icu_sicu_dot.png)
 
-# Line Graphs
-
-## Decision Tree Model Evaluation
-
-![](visualizations/roc_cp.png)
 
 # Box Plots
 
