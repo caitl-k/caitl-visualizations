@@ -65,6 +65,12 @@ The following are a collage of visualizations from different projects. I've comp
 
 ![](visualizations/roc_cp.png)
 
+# Power BI
+
+## Global Lab Supply Item Demand Summary Dashboard
+
+![](visualizations/labsupplysummary_dash.png)
+
 # Bar Graphs
 
 ## Bed Supply Analysis
